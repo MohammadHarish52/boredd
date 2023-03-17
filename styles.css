@@ -1,0 +1,181 @@
+body{
+    margin:0;
+    padding:0;   
+}
+.imagessss{
+    background-image: url('images/mountain.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat:inherit ;
+    margin:0 0;
+    height: 550px;
+}
+.backgroundimage{
+    height:960px;
+    width:960px;
+}
+
+.flex-container{
+    position: fixed;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: -32px 0 -16px 0;
+    background-color: rgba(0, 0, 0, 1);
+    height: 80px;
+    width: 100%;
+    
+}
+.logo{
+    padding:12px 0 0 120px;
+    justify-content: flex-start;
+    font-weight: 100;
+    font-size: 14px;
+    
+}
+.menu{
+    display: flex;
+    padding: 5px 120px 0 0;
+    padding-top: 9px;
+   
+}
+ .menu li{
+    list-style-type: none;
+    padding:23px 5px;
+    margin:0 10px;
+}
+.menu a{
+    font-size:12px;
+    
+    text-decoration: none;
+   
+}
+.menu a:hover{
+    color:blanchedalmond;
+
+}
+/*container2*/
+.uppersection{
+    padding: 175px 0 0 120px;
+    
+}
+h1{
+    
+    font-weight: bolder;
+}
+.logo,.menu a,h1{
+    font-family: 'Merriweather', serif;
+    color:white;
+    
+}
+.poem{
+    color:white;
+    padding:0 120px 0 0;
+    line-height: 30px;
+    width:500px;
+    margin:0;
+}
+/*container 3*/
+
+.middlesection{
+    display: flex;
+    padding:80px 120px 20px 120px;
+    background-color: rgb(0, 0, 0);
+    margin:0 0;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.middlesection p{
+    flex:1 1 0;
+    color:white;
+}
+span{
+    font-weight: bolder;
+    display: block;
+    margin : 30px 0;
+}
+/*about*/
+.about{
+    background-color: black;
+    color: white;
+    padding:200px 25px;
+    margin:-20px 0;
+    font-family: 'Merriweather', serif;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.about h2,p{
+    width:500px;
+    line-height: 30px;
+}
+ .about p{
+    font-size: 14px;
+}
+.harishganja{
+    height:256px;
+    width:200px;
+    text-align: center;
+    opacity:.9;
+    transition: ease-in 0.6s;
+    filter:grayscale(100%);
+}
+.harishganja:hover{
+    transition: ease-in-out 0.6s;
+    opacity:1;
+    height: 320px;
+    width:250px;
+    filter:grayscale(0%);
+}
+.contact{
+    background-color: black;
+    display: block;
+    text-align: center;
+    padding-bottom: 40px;;
+}
+.contact h3{
+    
+    color:white;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+}
+.fa-brands{
+    
+    color:white;
+    padding:0 8px;
+    font-size: 20px;
+    transition: ease-in 0.6s;
+}
+.fa-square-instagram:hover{
+
+transition: ease-out 0.6s;
+font-size: 30px;
+}
+.fa-github:hover{
+    
+    transition: ease-out 0.6s;
+font-size: 30px;
+
+}
+html::-webkit-scrollbar{
+    width:0.8vw;
+    scroll-behavior: smooth;
+    
+}
+html::-webkit-scrollbar-thumb{
+    background-color:black;
+    border-radius: 6px;
+    
+    scroll-behavior: smooth;
+}
+html{
+    scroll-behavior:smooth;
+    
+}
+html::-webkit-scrollbar-track{
+    background-color:rgb(40, 9, 29);
+    scroll-behavior: smooth;
+}
